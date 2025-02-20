@@ -1,6 +1,6 @@
 # Google Stock Price Time Series Analysis
 
-![Image_Alt](Customer_churn.jpg)
+![Image_Alt](Google_Stock_Price.png)
 
 ## 📌Overview
 This project performs a time series analysis on Google's stock price data, retrieved using the yfinance library. The goal is to explore historical stock prices, visualize trends (e.g., closing prices), and potentially apply forecasting models like ARIMA or SARIMAX to predict future prices. The repository demonstrates data retrieval, basic visualization, and sets the stage for advanced time series modeling.
