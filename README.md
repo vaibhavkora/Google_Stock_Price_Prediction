@@ -1,11 +1,13 @@
-## Google Stock Price Time Series Analysis
+# Google Stock Price Time Series Analysis
 
-### Overview
+![Image_Alt](Customer_churn.jpg)
+
+## 📌Overview
 This project performs a time series analysis on Google's stock price data, retrieved using the yfinance library. The goal is to explore historical stock prices, visualize trends (e.g., closing prices), and potentially apply forecasting models like ARIMA or SARIMAX to predict future prices. The repository demonstrates data retrieval, basic visualization, and sets the stage for advanced time series modeling.
 
-### Dataset
+## Dataset
 
-#### Description
+### Description
 The dataset consists of historical stock price data for Google (ticker: GOOG), fetched from Yahoo Finance via the yfinance Python library.
 
 - **Source:** Yahoo Finance (GOOG ticker).
@@ -18,10 +20,10 @@ The dataset consists of historical stock price data for Google (ticker: GOOG), f
   - **Volume:** Trading volume.
   - **Frequency:** Daily data (default for yfinance).
 
-### Acknowledgements
+## Acknowledgements
 Data is sourced from Yahoo Finance, a widely-used financial data provider. Ensure compliance with their terms of use when utilizing this data.
 
-### Methodology
+## Methodology
 
 #### Dependencies
 The project relies on the following Python libraries:
@@ -35,3 +37,14 @@ from statsmodels.tsa.statespace.sarimax import SARIMAX
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 import matplotlib.pyplot as plt
 import seaborn as sns
+```
+
+## Results
+- **Visualization:** A plot of Google’s closing prices is generated, showing the stock’s price trend over the specified period.
+- **Modeling:** The snippet does not include model training or forecasting results. Future updates could include ARIMA/SARIMAX predictions and evaluation metrics (e.g., RMSE).
+
+## Future Work
+- Implement ARIMA or SARIMAX models for forecasting stock prices.
+- Add seasonal decomposition (seasonal_decompose) to analyze trends and seasonality.
+- Include evaluation metrics (e.g., RMSE, MAE) for model performance.
+- Expand the analysis to multiple stocks or additional features (e.g., technical indicators).
